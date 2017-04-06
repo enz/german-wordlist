@@ -8,14 +8,10 @@ The rules what words are included roughly follow the rules in Scrabble,
 which means that names, proper nouns, toponyms, abbreviations, archaic
 words and outdated spellings are not allowed. Dated words are ok, also
 regional words as long as they are known to some extent outside the region.
-Extreme cases of obscenities should be omitted.
-
-Note that goal of this list is not to reproduce the official tournament
-wordlist of Scrabble Deutschland e.V. The inclusion criteria are less strict.
 If in doubt, words should be included, because Tanglet's gameplay works better
 with false positives than false negatives. If a word is listed in the Duden
-or the official Scrabble Deutschland wordlist and does not violate the general
-Scrabble rules, it should always be included in this list.
+and does not violate the general Scrabble rules, it should always be included
+in this list.
 
 For easier maintenance, there is a blacklist file that can be used to filter
 out unwanted words from a file with new word candidates. The wordlist and
