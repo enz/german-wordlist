@@ -1,4 +1,12 @@
 # Link from .git/hooks/pre-commit
+if grep -q '^$' words; then
+  echo "words contains empty lines"
+  exit 1
+fi
+if grep -q '^$' blacklist; then
+  echo "blacklist contains empty lines"
+  exit 1
+fi
 if ! sort -cu words; then
   echo "words not sorted"
   exit 1
