@@ -1,4 +1,15 @@
+#!/bin/bash
+
 # Link from .git/hooks/pre-commit
+
+if grep -q $'\r' words; then
+  echo "words contains non-Unix line endings"
+  exit 1
+fi
+if grep -q $'\r' blacklist; then
+  echo "blacklist contains non-Unix line endings"
+  exit 1
+fi
 if grep -q '^$' words; then
   echo "words contains empty lines"
   exit 1
