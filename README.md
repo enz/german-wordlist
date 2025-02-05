@@ -1,6 +1,6 @@
 This project contains a list of German words for wordgames.
 
-The list is currently used by Tanglet (https://gottcode.org/tanglet)
+The list is currently used by [Tanglet](https://gottcode.org/tanglet)
 but could be useful for other wordgames.
 
 The list is sorted, contains one word per line, the encoding is UTF-8
@@ -18,3 +18,14 @@ For easier maintenance, there is a blacklist file that can be used to
 filter out unwanted words from a file with new word candidates. The
 wordlist and blacklist are far from being complete and still contain a
 lot of mistakes. Any help for improving them is appreciated.
+
+Some useful links:
+
+* [GitHub/Tanglet](https://github.com/gottcode/tanglet)
+* Scrabble Deutschland e. V.: [Offizielle Regeln zur Zulässigkeit von Wörtern](http://scrabble-info.de/orz-offizielle-regeln-zur-zulaessigkeit-von-woertern/)
+* Scrabble Deutschland e. V.:  [Turnier-Checker](http://scrabble-info.de/wortlisten/turnier-checker/)
+* Scrabble Deutschland e. V.:  [SuperDic-Checker](https://scrabble-info.de/wortlisten/superdic-checker/)
+* [Duden Online](http://www.duden.de/)
+* [Rat für deutsche Rechtschreibung](http://www.rechtschreibrat.com/)
+* [German Wiktionary](https://de.wiktionary.org)
+* [German Wikipedia](https://de.wikipedia.org)
