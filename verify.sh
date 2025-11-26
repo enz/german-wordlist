@@ -2,13 +2,11 @@
 
 # Link from .git/hooks/pre-commit
 
-export LANG=de_DE.UTF-8
-
 function fatal {
   echo $1
   exit 1
 }
-
+[[ "$(locale charmap)" == "UTF-8" ]] || fatal "script requires a UTF-8 locale"
 ! grep -q $'\r' words || fatal "words contains non-Unix line endings"
 ! grep -q $'\r' blacklist || fatal "blacklist contains non-Unix line endings"
 ! grep -q '^$' words || fatal "words contains empty lines"
