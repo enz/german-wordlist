@@ -2,6 +2,8 @@
 
 # Link from .git/hooks/pre-commit
 
+export LANG=de_DE.UTF-8
+
 function fatal {
   echo $1
   exit 1
