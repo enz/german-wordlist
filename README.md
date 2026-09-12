@@ -21,7 +21,7 @@ lot of mistakes. Any help improving them is appreciated.
 
 Some useful links:
 
-* [GitHub/Tanglet](https://github.com/gottcode/tanglet)
+* [Codeberg/Tanglet](https://codeberg.org/gottcode/tanglet)
 * Scrabble Deutschland e. V.: [Offizielle Regeln zur Zulässigkeit von Wörtern](http://scrabble-info.de/orz-offizielle-regeln-zur-zulaessigkeit-von-woertern/)
 * Scrabble Deutschland e. V.:  [Turnier-Checker](http://scrabble-info.de/wortlisten/turnier-checker/)
 * Scrabble Deutschland e. V.:  [SuperDic-Checker](https://scrabble-info.de/wortlisten/superdic-checker/)
